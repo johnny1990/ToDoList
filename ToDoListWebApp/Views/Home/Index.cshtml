@@ -2,7 +2,6 @@
 @model ToDoVM
 
 @{
-    // string Overdue(ToDo task) => task.Overdue ? "bg-warning" : "";
 }
 
 <div class="row">
@@ -53,7 +52,7 @@
             <tbody>
                 @foreach (ToDo task in Model.Tasks)
                 {
-                    string overdue = "";// Overdue(task);
+                    string overdue = "";
                     <tr>
                         <td>@task.Description</td>
                         <td>@task.Category.Name</td>

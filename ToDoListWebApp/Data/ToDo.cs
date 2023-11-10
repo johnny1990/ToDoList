@@ -20,6 +20,5 @@ namespace ToDoListWebApp.Data
         public int StatusId { get; set; }
         public Status Status { get; set; }
 
-        //public bool Overdue => Status.Name == "Open" && DueDate < DateTime.Today;
     }
 }
